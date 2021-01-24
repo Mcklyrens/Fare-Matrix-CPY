@@ -12,10 +12,6 @@ namespace Fare_Matrix_CPY.AdminPortal
 {
     public partial class AdminDashboard : Form
     {
-        public AdminDashboard()
-        {
-            InitializeComponent();
-        }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
@@ -63,6 +59,31 @@ namespace Fare_Matrix_CPY.AdminPortal
         }
 
         private void guna2Button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

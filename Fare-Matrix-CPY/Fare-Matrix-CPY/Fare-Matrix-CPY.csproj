@@ -69,6 +69,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -101,6 +102,12 @@
     <Compile Include="AdminPortal\EnterEmail.Designer.cs">
       <DependentUpon>EnterEmail.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminPortal\AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPortal\AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminPortal\LoginProcessor.cs" />
     <Compile Include="AdminPortal\SavingAccountPrompt.cs">
       <SubType>Form</SubType>
@@ -120,10 +127,10 @@
     <Compile Include="AdminPortal\Verification.Designer.cs">
       <DependentUpon>Verification.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientPortal\ClientPortal.cs">
+    <Compile Include="ClientPortal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientPortal\ClientPortal.Designer.cs">
+    <Compile Include="ClientPortal.Designer.cs">
       <DependentUpon>ClientPortal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -137,6 +144,9 @@
     <EmbeddedResource Include="AdminPortal\EnterEmail.resx">
       <DependentUpon>EnterEmail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminPortal\AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminPortal\SavingAccountPrompt.resx">
       <DependentUpon>SavingAccountPrompt.cs</DependentUpon>
     </EmbeddedResource>
@@ -146,7 +156,7 @@
     <EmbeddedResource Include="AdminPortal\Verification.resx">
       <DependentUpon>Verification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientPortal\ClientPortal.resx">
+    <EmbeddedResource Include="ClientPortal.resx">
       <DependentUpon>ClientPortal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
