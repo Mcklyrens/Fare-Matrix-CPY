@@ -127,10 +127,10 @@
     <Compile Include="AdminPortal\Verification.Designer.cs">
       <DependentUpon>Verification.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientPortal.cs">
+    <Compile Include="ClientPortal\ClientPortal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientPortal.Designer.cs">
+    <Compile Include="ClientPortal\ClientPortal.Designer.cs">
       <DependentUpon>ClientPortal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -156,7 +156,7 @@
     <EmbeddedResource Include="AdminPortal\Verification.resx">
       <DependentUpon>Verification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientPortal.resx">
+    <EmbeddedResource Include="ClientPortal\ClientPortal.resx">
       <DependentUpon>ClientPortal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
